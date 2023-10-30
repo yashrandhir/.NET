@@ -1,6 +1,6 @@
-*Create a class calculator and write 3 instance method square, cube, round[if in put 22.5 o/p 22]
+/*Create a class calculator and write 3 instance method square, cube, round[if in put 22.5 o/p 22]
 Which will return square .cube and rounded number.
-Create object and call method and print the result.
+Create object and call method and print the result.*/
 
 using System;
 using System.Collections.Generic;
