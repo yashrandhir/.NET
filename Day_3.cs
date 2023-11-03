@@ -1,3 +1,6 @@
+/*1) Create a Student class with member variables name, maths, science, eng.
+create a method which will return total marks [300]
+create a method which will display name and total.*/
 using System;
 namespace Demo
 {
