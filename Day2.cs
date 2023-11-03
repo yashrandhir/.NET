@@ -1,31 +1,15 @@
 //Q1 Accept two numbers from user and do sum of it
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace add
+namespace problem1
 {
-    internal class Program
+    class Demo
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("enter two numbers");
-            string s1=Console.ReadLine();
-            string s2=Console.ReadLine();
-
-            bool a1=float.TryParse(s1, out float b1);
-            bool a2=float.TryParse(s2, out float b2);
-
-            if( a1 == true && a2 == true )
-            {
-                Console.WriteLine(b1  + b2);
-            }
-            else
-            {
-                Console.WriteLine("Enter the valid data");
-            }
+            int num1=int.Parse(Console.ReadLine()); 
+            int num2=int.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Addition of two numbers {0} and {1} is {2}",num1,num2,num2+num1);
         }
     }
 }
